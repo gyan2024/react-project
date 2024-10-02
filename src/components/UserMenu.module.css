@@ -1,0 +1,54 @@
+.user_menu {
+    display: flex;
+    flex-direction: column;
+    padding: 16px; /* Adjust padding for better spacing */
+
+    border-radius: 8px; /* Rounded corners */
+    width: 220px; /* Adjust width as needed */
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1); /* Subtle shadow */
+    height: 5rem;
+    margin-top: 1rem;
+    margin-left: 4rem;
+    font-family: Arial, sans-serif;
+
+    position: absolute; /* or 'fixed' depending on your requirement */
+    z-index: 999; /* A high value to ensure it's on top */
+    background-color: #fff; /* Ensure the background is opaque */
+    border: 1px solid #ddd;
+    
+}
+
+.menu_list {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 10px; /* Space between lists */
+    list-style-type: none; /* Remove bullets */
+
+}
+
+.label {
+    font-size: 14px;
+    color: grey; /* Darker color for better readability */
+    font-weight: bold; /* Bold label for emphasis */
+}
+
+.dropdown {
+    width: 120px; /* Width for dropdown */
+    padding: 8px; /* Increased padding for better touch target */
+    border: 1px solid #cccccc; /* Light border color */
+    border-radius: 4px; /* Slightly rounded corners */
+    background-color: #f8f8f8; /* Light gray background */
+    font-size: 14px;
+    color: #333333;
+    cursor: pointer; /* Pointer cursor for dropdown */
+}
+
+.dropdown:focus {
+    outline: none; /* Remove default focus outline */
+    border-color: #007bff; /* Highlight border on focus */
+}
+
+.dropdown option {
+    color: #333333; /* Text color for options */
+}

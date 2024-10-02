@@ -1,0 +1,74 @@
+*{
+  margin: 0;
+  padding: 0;
+}
+.div{
+  /* background-color: #f0f0f0; */
+  border-bottom: 2px solid rgb(239, 237, 237);
+  height: 4rem;
+}
+.display_button {
+    background-color: white; /* Light background for button */
+    border: 1px solid #dcdcdc; /* Light border */
+    box-shadow: 0px 0px 2px grey;
+    color: #4a4a4a;
+    display: flex;
+    border-radius: 6px; /* Rounded corners */
+    padding: 5px 12px; /* Padding inside the button */
+    cursor: pointer;
+    font-family: Arial, sans-serif;
+    align-items: center;
+    justify-content: center;
+    margin-left: 4rem;
+    margin-top: 1.5rem;
+    font-size: 14px;
+  }
+  
+  /* List inside the button to align content */
+  .button_content {
+    display: flex;
+    align-items: center;
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+  }
+  
+  /* Align text and icons with spacing */
+  .button_content li {
+    margin-right: 5px;
+  }
+  .display_button_active {
+    background-color: rgb(245, 243, 243) ;/* Light background for button */
+    border: 1px solid #dcdcdc; /* Light border */
+    box-shadow: 0px 0px 2px grey;
+    color: #4a4a4a;
+    display: flex;
+    border-radius: 6px; /* Rounded corners */
+    padding: 5px 12px; /* Padding inside the button */
+    cursor: pointer;
+    font-family: Arial, sans-serif;
+    align-items: center;
+    justify-content: center;
+    margin-left: 4rem;
+    margin-top: 1.5rem;
+    font-size: 14px;
+  }
+  
+  .button_content li:last-child {
+    margin-right: 0;
+  }
+  
+  /* Icon styling */
+  .icon, .dropdown-icon {
+    width: 16px; /* Size of the icons */
+    height: 16px;
+    display: inline-block;
+  }
+  
+  /* Ensure the text and icons are vertically centered */
+  .button_content p {
+    margin: 0;
+    display: inline-block;
+    vertical-align: middle;
+  }
+  

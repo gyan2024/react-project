@@ -1,0 +1,22 @@
+export const mapping={
+"Todo": 'To-do.svg',
+"In progress": 'in-progress.svg',
+"Done": 'Done.svg',
+"Cancelled": 'Cancelled.svg',
+"Backlog": 'Backlog.svg',
+'0': '3_dot_menu.svg',
+'1': 'Low_Priority.svg',
+'2': 'Medium_Priority.svg',
+'3': 'High_Priority.svg',
+'4': 'Urgent_Priority_colour.svg',
+'Anoop_sharma': 'Anoop_sharma.jpeg',
+'Yogesh': 'Yogesh.jpeg',
+'Shankar_Kumar': 'Shankar_Kumar.jpeg',
+'Ramesh': 'Ramesh.jpeg',
+'Suresh': 'Suresh.jpeg',
+'usr-1': 'Anoop_sharma.jpeg',
+'usr-2': 'Yogesh.jpeg',
+'usr-3': 'Shankar_Kumar.jpeg',
+'usr-4': 'Ramesh.jpeg',
+'usr-5': 'Suresh.jpeg'
+}
